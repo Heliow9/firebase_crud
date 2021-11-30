@@ -1,0 +1,141 @@
+.crud{
+  display: flex;
+  align-self: center;
+  font-weight: bold;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.formContainer{
+  display: flex;
+  flex-direction: 'row';
+  width: 30%;
+
+}
+
+.formGroup {
+  display: flex;
+  width:300px;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.formGroup label {
+  font-weight: bold;
+  color: burlywood;
+}
+
+.formGroup input{
+  width: 230px;
+  height:33px;
+  border-radius: 8px;
+  border:1px solid burlywood;
+  padding: 0 12px;
+}
+.formGroup textArea{
+  height:100px;
+}
+
+.cardContact{
+background-color: burlywood;
+width:400px;
+height:400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.cardContact input{
+  width:250px;
+  height:40px;
+  padding:0 10px;
+  border-radius: 3px;
+  margin-top: 3px;
+}
+
+.contactGroup{
+  width:100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.cardUser{
+  width:80%;
+  background-color: bisque;
+  margin:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.CardInfo{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.CardButton span{
+margin-left: 7px;
+cursor: pointer;
+
+}
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:1080px){
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .formContainer{
+    align-self: center;
+    width: 100%;
+    margin: 20px;
+  }
+}
